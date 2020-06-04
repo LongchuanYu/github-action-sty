@@ -24,9 +24,4 @@ jobs:
     # Runs a single command using the runners shell
     - name: Run a one-line script
       run: |
-        cd ~/actions-runner
-        git clone https://github.com/LongchuanYu/myblog_vue.git
-        cd myblog_vue
-        npm install
-        npm run build 
-         
+        ls
